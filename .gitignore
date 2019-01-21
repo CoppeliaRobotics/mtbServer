@@ -1,5 +1,12 @@
 .qmake.stash
 Makefile
+Makefile.Debug
+Makefile.Release
 *.o
 mtbServer
 mtbServer.exe
+release/
+x64/
+.vs/
+*.user*
+build-*
