@@ -41,15 +41,15 @@ INCLUDEPATH += $$BOOST_INCLUDEPATH
 win32 {
     LIBS += -lwinmm
     LIBS += -lWs2_32
-    DEFINES += WIN_VREP
+    DEFINES += WIN_SIM
 }
 
 macx {
-    DEFINES += MAC_VREP
+    DEFINES += MAC_SIM
 }
 
 unix:!macx {
-    DEFINES += LIN_VREP
+    DEFINES += LIN_SIM
 }
 
 unix:!symbian {
