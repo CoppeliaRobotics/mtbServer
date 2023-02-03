@@ -66,7 +66,7 @@ HEADERS += \
     robotLanguageInterpreter.h
 
 SOURCES += \
-    ../common/socketInConnection.cpp \
+    ../include/socketInConnection.cpp \
     robotLanguageInterpreter.cpp \
     mtbServer.cpp
 
