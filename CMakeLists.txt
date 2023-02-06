@@ -20,7 +20,7 @@ coppeliasim_add_executable(mtbServer
     SOURCES
     mtbServer.cpp
     robotLanguageInterpreter.cpp
-    ${COPPELIASIM_INCLUDE_DIR}/socketInConnection.cpp
+    ${COPPELIASIM_INCLUDE_DIR}/simLib/socketInConnection.cpp
 )
 target_include_directories(mtbServer PRIVATE ${COPPELIASIM_INCLUDE_DIR})
 target_link_libraries(mtbServer Boost::system)
