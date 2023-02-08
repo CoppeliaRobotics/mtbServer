@@ -62,11 +62,11 @@ unix:!symbian {
 }
 
 HEADERS += \
-    ../include/socketInConnection.h \
+    ../include/simLib//socketInConnection.h \
     robotLanguageInterpreter.h
 
 SOURCES += \
-    ../include/socketInConnection.cpp \
+    ../include/simLib/socketInConnection.cpp \
     robotLanguageInterpreter.cpp \
     mtbServer.cpp
 
