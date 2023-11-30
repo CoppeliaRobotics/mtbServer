@@ -18,8 +18,8 @@ find_package(CoppeliaSim 4.5.1.7 REQUIRED)
 
 coppeliasim_add_executable(mtbServer
     SOURCES
-    mtbServer.cpp
-    robotLanguageInterpreter.cpp
+    sourceCode/mtbServer.cpp
+    sourceCode/robotLanguageInterpreter.cpp
     ${COPPELIASIM_INCLUDE_DIR}/simLib/socketInConnection.cpp
 )
 target_include_directories(mtbServer PRIVATE ${COPPELIASIM_INCLUDE_DIR})
